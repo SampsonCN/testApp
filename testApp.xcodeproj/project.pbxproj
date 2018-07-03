@@ -15,6 +15,7 @@
 		835736AE20EA314000A6783A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 835736AD20EA314000A6783A /* main.m */; };
 		835736B820EA314000A6783A /* testAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 835736B720EA314000A6783A /* testAppTests.m */; };
 		835736C320EA314000A6783A /* testAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 835736C220EA314000A6783A /* testAppUITests.m */; };
+		835736D320EB212E00A6783A /* testModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 835736D220EB212E00A6783A /* testModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		835736BE20EA314000A6783A /* testAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		835736C220EA314000A6783A /* testAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testAppUITests.m; sourceTree = "<group>"; };
 		835736C420EA314000A6783A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		835736D120EB212E00A6783A /* testModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testModel.h; sourceTree = "<group>"; };
+		835736D220EB212E00A6783A /* testModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		8357369220EA313E00A6783A = {
 			isa = PBXGroup;
 			children = (
+				835736D020EB211400A6783A /* Utils */,
 				8357369D20EA313E00A6783A /* testApp */,
 				835736B620EA314000A6783A /* testAppTests */,
 				835736C120EA314000A6783A /* testAppUITests */,
@@ -130,6 +134,15 @@
 				835736C420EA314000A6783A /* Info.plist */,
 			);
 			path = testAppUITests;
+			sourceTree = "<group>";
+		};
+		835736D020EB211400A6783A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				835736D120EB212E00A6783A /* testModel.h */,
+				835736D220EB212E00A6783A /* testModel.m */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +278,7 @@
 				835736A320EA313E00A6783A /* ViewController.m in Sources */,
 				835736AE20EA314000A6783A /* main.m in Sources */,
 				835736A020EA313E00A6783A /* AppDelegate.m in Sources */,
+				835736D320EB212E00A6783A /* testModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
